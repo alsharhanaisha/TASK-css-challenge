@@ -1,0 +1,19 @@
+body {
+  background-color: purple;
+  color: white;
+  text-align: center;
+}
+.movie-image {
+  width: 300px;
+}
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  margin: 20px;
+}
+.paragraph {
+  margin: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 40px;
+}
