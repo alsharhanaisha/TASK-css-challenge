@@ -1,15 +1,34 @@
 /* Add your code in each class */
 body {
+  background-color: purple;
 }
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .movie-card {
+  position: relative;
+  height: 300px;
+  width: 300px;
 }
 .movie-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .movie-details-container {
+  position: absolute;
 }
+
 .descriptions {
+  position: absolute;
+  color: white;
+  left: 7px;
+  bottom: 0;
 }
 
 /*A gift from us!*/
